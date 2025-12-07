@@ -1,16 +1,30 @@
 [
-  {
-    "id": "gongshou-test",
-    "file": "/quizzes/gongshou.json",
-    "title": "攻受属性测试",
-    "description": "探索你的攻受属性！",
-    "coverImage": "https://images.unsplash.com/photo-1596464716127-f9a0639b5caa?w=800&q=80"
-  },
-  {
-    "id": "lover-test",
-    "file": "/quizzes/lover.json",
-    "title": "灵魂伴侣测试",
-    "description": "看看你最适合的灵魂伴侣是什么样子？",
-    "coverImage": "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=800&q=80"
-  }
+    {
+        "id": "gongshou-test",
+        "file": "/quizzes/gongshou.json",
+        "title": "攻受属性测试",
+        "description": "探索你的攻受属性！",
+        "coverImage": "https://images.unsplash.com/photo-1516726817505-f5ed825624d8?w=800&q=80"
+    },
+    {
+        "id": "xp-test-pro",
+        "file": "/quizzes/xp_test_pro.json",
+        "title": "XP 综合倾向测试",
+        "description": "涵盖 Dom/Sub, 字母圈, 恋物, 开放度等22个维度的深度解析。",
+        "coverImage": "https://origin.picgo.net/2025/12/07/file8d53768705cb112c.png"
+    },
+    {
+        "id": "soul-animal-test",
+        "file": "/quizzes/soul_animal.json",
+        "title": "你的灵魂动物是什么？",
+        "description": "是快乐修勾，还是发疯的水豚？测测你的精神状态属于哪种生物。",
+        "coverImage": "https://images.unsplash.com/photo-1560807707-8cc77767d783?w=800&q=80"
+    },
+    {
+        "id": "brat-score-pro",
+        "file": "/quizzes/brat_score.json",
+        "title": "Brat 浓度测试",
+        "description": "15道题，精准计算你的捣蛋指数。看看你是乖宝宝还是混世魔王。",
+        "coverImage": "https://images.unsplash.com/photo-1596464716127-f9a0639b5caa?w=800&q=80"
+    }
 ]

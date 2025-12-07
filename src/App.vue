@@ -52,7 +52,7 @@
             class="text-sm text-slate-400 hover:text-indigo-600 transition-colors flex items-center">&larr;
             退出测试</button>
           <span class="text-sm font-medium text-slate-500">进度 {{ currentQIndex + 1 }} / {{ activeQuiz.questions.length
-            }}</span>
+          }}</span>
         </div>
 
         <div class="relative z-10 mb-8 w-full bg-slate-200/60 rounded-full h-3 overflow-hidden">
@@ -158,7 +158,7 @@
             <div class="relative z-10">
               <div class="flex justify-between items-center mb-2">
                 <span class="font-bold text-slate-800 text-lg">{{ activeQuiz.dimensionMeta?.[key]?.label || key
-                  }}</span>
+                }}</span>
                 <span class="font-mono font-bold text-indigo-600 text-xl">{{ score.toFixed(0) }}</span>
               </div>
               <p v-if="activeQuiz.dimensionMeta?.[key]?.desc" class="text-slate-500 text-sm leading-relaxed">
