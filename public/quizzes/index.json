@@ -1,0 +1,16 @@
+[
+  {
+    "id": "gongshou-test",
+    "file": "/quizzes/gongshou.json",
+    "title": "攻受属性测试",
+    "description": "探索你的攻受属性！",
+    "coverImage": "https://images.unsplash.com/photo-1596464716127-f9a0639b5caa?w=800&q=80"
+  },
+  {
+    "id": "lover-test",
+    "file": "/quizzes/lover.json",
+    "title": "灵魂伴侣测试",
+    "description": "看看你最适合的灵魂伴侣是什么样子？",
+    "coverImage": "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=800&q=80"
+  }
+]

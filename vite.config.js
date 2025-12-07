@@ -1,7 +1,15 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-// https://vite.dev/config/
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
+  server: {
+    host: '0.0.0.0', 
+    port: 5173,
+    // ↓↓↓ 新增这一行，允许你的域名访问 ↓↓↓
+    allowedHosts: [
+      'quiz.charlinserver.online'
+    ]
+  }
 })
