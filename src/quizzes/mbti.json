@@ -1,0 +1,67 @@
+{
+  "id": "mbti-demo",
+  "title": "你的灵魂颜色是什么？(MBTI 风格)",
+  "description": "通过几个简单的问题，分析你的性格底色。",
+  "coverImage": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=800&q=80",
+  "dimensions": {
+    "E": 0,
+    "I": 0,
+    "T": 0,
+    "F": 0
+  },
+  "questions": [
+    {
+      "text": "周末到了，你更倾向于？",
+      "options": [
+        {
+          "text": "去参加一个热闹的派对",
+          "scores": {
+            "E": 5,
+            "I": -2
+          }
+        },
+        {
+          "text": "在家里读一本好书",
+          "scores": {
+            "I": 5,
+            "E": -1
+          }
+        }
+      ]
+    },
+    {
+      "text": "朋友向你哭诉，你的第一反应是？",
+      "options": [
+        {
+          "text": "分析问题，提供解决方案",
+          "scores": {
+            "T": 5
+          }
+        },
+        {
+          "text": "给个拥抱，共情安慰",
+          "scores": {
+            "F": 5
+          }
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "name": "热情红 (ESTP 倾向)",
+      "description": "你是一个充满活力的人，喜欢行动多于思考。",
+      "condition": "scores.E > scores.I && scores.T > scores.F"
+    },
+    {
+      "name": "深邃蓝 (INFJ 倾向)",
+      "description": "你内心细腻，富有同情心，喜欢深度的交流。",
+      "condition": "scores.I >= scores.E && scores.F >= scores.T"
+    },
+    {
+      "name": "平衡绿 (其他情况)",
+      "description": "你的性格非常平衡，既能动也能静。",
+      "condition": "default"
+    }
+  ]
+}
